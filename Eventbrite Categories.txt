@@ -3,13 +3,6 @@
 Eventbrite Categories and Subcategories
 
 
-Last updated 7 Jan 2020
-
-
-Taken from the API. I've put the cats and subcats relevant to Innovation Scene at the top. The full list of cats is at the end. 
-
-
-
 The full lists can be obtained via:
 
 https://www.eventbriteapi.com/v3/categories/?token=My_API_Key
@@ -20,11 +13,7 @@ https://www.eventbriteapi.com/v3/categories/CATEGORY_ID/?token=My_API_Key
 
 
 
-WARNING: Events can easily be placed under the 'Other' category or subcategory which is no use to anyone. Also, a category can be NULL. So that's two extra possibilities we need to account for. Plus I just found a pitch event listed under category 113 - Community & Culture. *sigh*
-
-
-
-
+WARNING: Events can easily be placed under the 'Other' category or subcategory which is no use to anyone. Also, a category can be NULL. So that's two extra possibilities to account for. 
 
 
 "resource_uri": "https://www.eventbriteapi.com/v3/categories/101/", 
@@ -175,32 +164,6 @@ WARNING: Events can easily be placed under the 'Other' category or subcategory w
 
 
 
-
-
-
-
-
-
-
-Other possible subcats of interest:
-
-Film, Media & Entertainment
-4004 - Gaming - see also 19001
-(possibly this whole category is relevant to creative/design stuff)
-
-
-Performing & Visual Arts
-5013 - Design
-(possibly this whole category is relevant to creative/design stuff)
-
-Travel & Outdoor
-9006 - Travel
-9999 - Other
-
-
-Hobbies & Special Interest
-19002 - Gaming
-(possibly this whole category is relevant to creative/design stuff)
 
 
 
