@@ -7,7 +7,10 @@
 
 
 
-
+public function test()
+  {
+    return $this->test;
+  }
 
 
 
